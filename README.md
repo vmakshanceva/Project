@@ -7,7 +7,7 @@
 
 ## Соста группы
 
-Иванов Иван (github: abracadabra), Алексеев Алексей (github: example)
+Макшанцева Варвара (github: vmakshanceva), Липский Андрей (github: -), Мингалев Тимофей (github: -)
 
 ## Идея компании
 
