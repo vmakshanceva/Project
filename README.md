@@ -3,7 +3,7 @@
 
 ## Название
 
-Doppler Studios
+Doppler Studios 
 
 ## Состав группы
 
