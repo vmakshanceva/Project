@@ -7,7 +7,7 @@
 
 ## Состав группы
 
-Макшанцева Варвара (github: vmakshanceva),  Липский Андрей (github: -),  Мингалев Тимофей (github: tmingalev)
+Макшанцева Варвара (github: vmakshanceva),  Липский Андрей (github: goldandros),  Мингалев Тимофей (github: tmingalev)
 
 ## Идея компании
 
