@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+requests
+beautifulsoup4
+plotly
+folium
+selenium
+nltk
+wordcloud
