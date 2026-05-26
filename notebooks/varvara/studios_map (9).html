@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_70a64ba8ba421f4ac4ed59fb80e4ee08 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_70a64ba8ba421f4ac4ed59fb80e4ee08" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_70a64ba8ba421f4ac4ed59fb80e4ee08 = L.map(
+                "map_70a64ba8ba421f4ac4ed59fb80e4ee08",
+                {
+                    center: [55.7558, 37.6173],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1dab3dcce5986e7fce7939f09556f772 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1dab3dcce5986e7fce7939f09556f772.addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var marker_1a6123449fa9d40330e49f2f370200d5 = L.marker(
+                [55.7672206, 37.6077009],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_9d3e19231d69bf7c4950aade0dda1786 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2753870293981fb674c0bec6bf43270 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8abc5113665a98c18c6d899e2f5d6e3 = $(`<div id="html_a8abc5113665a98c18c6d899e2f5d6e3" style="width: 100.0%; height: 100.0%;"><b>Grusha Music</b><br>Большой Путинковский переулок, 5</div>`)[0];
+                popup_f2753870293981fb674c0bec6bf43270.setContent(html_a8abc5113665a98c18c6d899e2f5d6e3);
+            
+        
+
+        marker_1a6123449fa9d40330e49f2f370200d5.bindPopup(popup_f2753870293981fb674c0bec6bf43270)
+        ;
+
+        
+    
+    
+                marker_1a6123449fa9d40330e49f2f370200d5.setIcon(icon_9d3e19231d69bf7c4950aade0dda1786);
+            
+    
+            var marker_a7ad054c17b425ac26a1187a258061a5 = L.marker(
+                [55.768588, 37.614779],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_30fd69b6b01c907976ef868391015142 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4587b75033d4a73cbd5d43db13439d35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a5b4aacee638be7d8afe57194181808 = $(`<div id="html_6a5b4aacee638be7d8afe57194181808" style="width: 100.0%; height: 100.0%;"><b>Moon dragon</b><br>Петровский бульвар, 9 ст2</div>`)[0];
+                popup_4587b75033d4a73cbd5d43db13439d35.setContent(html_6a5b4aacee638be7d8afe57194181808);
+            
+        
+
+        marker_a7ad054c17b425ac26a1187a258061a5.bindPopup(popup_4587b75033d4a73cbd5d43db13439d35)
+        ;
+
+        
+    
+    
+                marker_a7ad054c17b425ac26a1187a258061a5.setIcon(icon_30fd69b6b01c907976ef868391015142);
+            
+    
+            var marker_0d42594b2c13c41e282fb7b08f305b0d = L.marker(
+                [55.74, 37.609505],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_0ca019f35734ea91917ee9c4f30085a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a78da7e1ec7aae2afed297e0c3acceb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c707e629bb5274aeada32b315d47563 = $(`<div id="html_9c707e629bb5274aeada32b315d47563" style="width: 100.0%; height: 100.0%;"><b>KomorKing sound</b><br>Красный Октябрь, Болотная набережная, 3 ст2</div>`)[0];
+                popup_a78da7e1ec7aae2afed297e0c3acceb5.setContent(html_9c707e629bb5274aeada32b315d47563);
+            
+        
+
+        marker_0d42594b2c13c41e282fb7b08f305b0d.bindPopup(popup_a78da7e1ec7aae2afed297e0c3acceb5)
+        ;
+
+        
+    
+    
+                marker_0d42594b2c13c41e282fb7b08f305b0d.setIcon(icon_0ca019f35734ea91917ee9c4f30085a2);
+            
+    
+            var marker_77c52e549682803aa3eab11295ec9207 = L.marker(
+                [55.7617523, 37.6399886],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_5e865069a50dda526efefd961537954e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f2a5ef41436d566803b11fe32154ffa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb094c694a2aa65b657dc822c5ccfcf9 = $(`<div id="html_fb094c694a2aa65b657dc822c5ccfcf9" style="width: 100.0%; height: 100.0%;"><b>Продюсерский центр Игоря Сандлера</b><br>Потаповский переулок, 3 ст1</div>`)[0];
+                popup_4f2a5ef41436d566803b11fe32154ffa.setContent(html_fb094c694a2aa65b657dc822c5ccfcf9);
+            
+        
+
+        marker_77c52e549682803aa3eab11295ec9207.bindPopup(popup_4f2a5ef41436d566803b11fe32154ffa)
+        ;
+
+        
+    
+    
+                marker_77c52e549682803aa3eab11295ec9207.setIcon(icon_5e865069a50dda526efefd961537954e);
+            
+    
+            var marker_af89f682a7c262262c1a40d788d90e5f = L.marker(
+                [55.760206, 37.663889],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_0926c8815d027d3c807b16df82ac2928 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78a19afae9d9ee88b81316c4dbc539be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65ab0f0b636ed780efded23c7e9ba664 = $(`<div id="html_65ab0f0b636ed780efded23c7e9ba664" style="width: 100.0%; height: 100.0%;"><b>Pioneer DJ School</b><br>Нижний Сусальный переулок, 5 ст4</div>`)[0];
+                popup_78a19afae9d9ee88b81316c4dbc539be.setContent(html_65ab0f0b636ed780efded23c7e9ba664);
+            
+        
+
+        marker_af89f682a7c262262c1a40d788d90e5f.bindPopup(popup_78a19afae9d9ee88b81316c4dbc539be)
+        ;
+
+        
+    
+    
+                marker_af89f682a7c262262c1a40d788d90e5f.setIcon(icon_0926c8815d027d3c807b16df82ac2928);
+            
+    
+            var marker_6b03d263ff44b029d5f829a8e7b87168 = L.marker(
+                [55.7352681, 37.6633047],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_2d26c06b7cbbe01afe527af69ab57e48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8f0eb96048d70e1365f86e8fb901bf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b00cbafc097980b54825febd863da88 = $(`<div id="html_5b00cbafc097980b54825febd863da88" style="width: 100.0%; height: 100.0%;"><b>Хендрикс</b><br>Марксистская улица, 34 к4</div>`)[0];
+                popup_f8f0eb96048d70e1365f86e8fb901bf4.setContent(html_5b00cbafc097980b54825febd863da88);
+            
+        
+
+        marker_6b03d263ff44b029d5f829a8e7b87168.bindPopup(popup_f8f0eb96048d70e1365f86e8fb901bf4)
+        ;
+
+        
+    
+    
+                marker_6b03d263ff44b029d5f829a8e7b87168.setIcon(icon_2d26c06b7cbbe01afe527af69ab57e48);
+            
+    
+            var marker_c059df82dd337f23f5ab51634e3580b5 = L.marker(
+                [55.751148, 37.655248],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_9a7b69516fe46f017d84e60ac550b52f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91a438455419d62b1f62093f611c9436 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e537bf344176f7079df2dfc30e36725b = $(`<div id="html_e537bf344176f7079df2dfc30e36725b" style="width: 100.0%; height: 100.0%;"><b>ЦАО Records</b><br>Улица Земляной Вал, 50а ст3</div>`)[0];
+                popup_91a438455419d62b1f62093f611c9436.setContent(html_e537bf344176f7079df2dfc30e36725b);
+            
+        
+
+        marker_c059df82dd337f23f5ab51634e3580b5.bindPopup(popup_91a438455419d62b1f62093f611c9436)
+        ;
+
+        
+    
+    
+                marker_c059df82dd337f23f5ab51634e3580b5.setIcon(icon_9a7b69516fe46f017d84e60ac550b52f);
+            
+    
+            var marker_96b85bd9c1b232aace088908c36523e0 = L.marker(
+                [55.7624599, 37.6527448],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_6a34703fc1aeab31344cfd4e296d04b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff828a2a702d9916c4af4c3c83391951 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7876cc1d05d3629cc415bd061196b6f = $(`<div id="html_d7876cc1d05d3629cc415bd061196b6f" style="width: 100.0%; height: 100.0%;"><b>Звук Во рту</b><br>Улица Покровка, 2/1 ст2</div>`)[0];
+                popup_ff828a2a702d9916c4af4c3c83391951.setContent(html_d7876cc1d05d3629cc415bd061196b6f);
+            
+        
+
+        marker_96b85bd9c1b232aace088908c36523e0.bindPopup(popup_ff828a2a702d9916c4af4c3c83391951)
+        ;
+
+        
+    
+    
+                marker_96b85bd9c1b232aace088908c36523e0.setIcon(icon_6a34703fc1aeab31344cfd4e296d04b2);
+            
+    
+            var marker_f11eafa61c496ddfa57641a53745f998 = L.marker(
+                [55.7529674, 37.6695991],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_c1a95303f50e2981931ec6eebc3f413d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_089b0b465971ef318c5376ec601b0f7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3be51c534278d383cdb7b6ef3cf0c72d = $(`<div id="html_3be51c534278d383cdb7b6ef3cf0c72d" style="width: 100.0%; height: 100.0%;"><b>Вайб Рекордс</b><br>Нижняя Сыромятническая улица, 10 ст8</div>`)[0];
+                popup_089b0b465971ef318c5376ec601b0f7f.setContent(html_3be51c534278d383cdb7b6ef3cf0c72d);
+            
+        
+
+        marker_f11eafa61c496ddfa57641a53745f998.bindPopup(popup_089b0b465971ef318c5376ec601b0f7f)
+        ;
+
+        
+    
+    
+                marker_f11eafa61c496ddfa57641a53745f998.setIcon(icon_c1a95303f50e2981931ec6eebc3f413d);
+            
+    
+            var marker_cfa515bf85bed8a8c4719f912b8a171b = L.marker(
+                [55.766223, 37.626196],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_74b7d365a1130731e924381b59b576e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4463874f56cc8d235c086dfd94382052 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a73a1e6a3b0c7bd653d9c13317e85837 = $(`<div id="html_a73a1e6a3b0c7bd653d9c13317e85837" style="width: 100.0%; height: 100.0%;"><b>333 sound</b><br>Рождественский бульвар, 10/7 ст1</div>`)[0];
+                popup_4463874f56cc8d235c086dfd94382052.setContent(html_a73a1e6a3b0c7bd653d9c13317e85837);
+            
+        
+
+        marker_cfa515bf85bed8a8c4719f912b8a171b.bindPopup(popup_4463874f56cc8d235c086dfd94382052)
+        ;
+
+        
+    
+    
+                marker_cfa515bf85bed8a8c4719f912b8a171b.setIcon(icon_74b7d365a1130731e924381b59b576e3);
+            
+    
+            var marker_bd91784e83bcc70eee654178b2f3a4a4 = L.marker(
+                [55.7778478, 37.6820971],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_660d8d169189a174c80f8e17d888a31a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b58a2a1fc8d88555a25f4ccf93deb062 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e07d830cf78ae23795795212bef2c54d = $(`<div id="html_e07d830cf78ae23795795212bef2c54d" style="width: 100.0%; height: 100.0%;"><b>Overtime</b><br>Налесный переулок, 4</div>`)[0];
+                popup_b58a2a1fc8d88555a25f4ccf93deb062.setContent(html_e07d830cf78ae23795795212bef2c54d);
+            
+        
+
+        marker_bd91784e83bcc70eee654178b2f3a4a4.bindPopup(popup_b58a2a1fc8d88555a25f4ccf93deb062)
+        ;
+
+        
+    
+    
+                marker_bd91784e83bcc70eee654178b2f3a4a4.setIcon(icon_660d8d169189a174c80f8e17d888a31a);
+            
+    
+            var marker_3b87247ed7a2b01a9bd91b68729160ca = L.marker(
+                [55.7617523, 37.6399886],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_89eb33aaacfc518f49612c0996cf813e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9a0a191348a88389c818ec9973bb41b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_305b37006f353c255e99c7b4a32b4ca2 = $(`<div id="html_305b37006f353c255e99c7b4a32b4ca2" style="width: 100.0%; height: 100.0%;"><b>Sandler Studio</b><br>Потаповский переулок, 3 ст1</div>`)[0];
+                popup_d9a0a191348a88389c818ec9973bb41b.setContent(html_305b37006f353c255e99c7b4a32b4ca2);
+            
+        
+
+        marker_3b87247ed7a2b01a9bd91b68729160ca.bindPopup(popup_d9a0a191348a88389c818ec9973bb41b)
+        ;
+
+        
+    
+    
+                marker_3b87247ed7a2b01a9bd91b68729160ca.setIcon(icon_89eb33aaacfc518f49612c0996cf813e);
+            
+    
+            var marker_c44065bab0fe757b42c51761434b91a1 = L.marker(
+                [55.752794, 37.669782],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_52e206a1781a019c78685207409c5d38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edf9a8a02b82e4592ce718e81ef5d69f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cad21f441ae5e2123306c50dec21e02d = $(`<div id="html_cad21f441ae5e2123306c50dec21e02d" style="width: 100.0%; height: 100.0%;"><b>Major Studio</b><br>Нижняя Сыромятническая улица, 10 ст40</div>`)[0];
+                popup_edf9a8a02b82e4592ce718e81ef5d69f.setContent(html_cad21f441ae5e2123306c50dec21e02d);
+            
+        
+
+        marker_c44065bab0fe757b42c51761434b91a1.bindPopup(popup_edf9a8a02b82e4592ce718e81ef5d69f)
+        ;
+
+        
+    
+    
+                marker_c44065bab0fe757b42c51761434b91a1.setIcon(icon_52e206a1781a019c78685207409c5d38);
+            
+    
+            var marker_6505985f540b2bc8b058fb63e65fa027 = L.marker(
+                [55.7681412, 37.6839617],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_797a9b21a6df6565ae911a5b764bbbc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09e91f7fc33b51df9aa9a77e9a591719 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66e8cc07e1c52c995ed7d1e592a32f84 = $(`<div id="html_66e8cc07e1c52c995ed7d1e592a32f84" style="width: 100.0%; height: 100.0%;"><b>All Music Studio</b><br>Старокирочный переулок, 2</div>`)[0];
+                popup_09e91f7fc33b51df9aa9a77e9a591719.setContent(html_66e8cc07e1c52c995ed7d1e592a32f84);
+            
+        
+
+        marker_6505985f540b2bc8b058fb63e65fa027.bindPopup(popup_09e91f7fc33b51df9aa9a77e9a591719)
+        ;
+
+        
+    
+    
+                marker_6505985f540b2bc8b058fb63e65fa027.setIcon(icon_797a9b21a6df6565ae911a5b764bbbc9);
+            
+    
+            var marker_c5bfce8b49e1214b86a532e38edf8efc = L.marker(
+                [55.7689182, 37.6686967],
+                {
+}
+            ).addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+            var icon_e8e2e04615c4271171cff19939e3edcb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "music",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a3d234532556625408cda082f09b9fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d85c6bb89372f1335f25fb087f8cfeca = $(`<div id="html_d85c6bb89372f1335f25fb087f8cfeca" style="width: 100.0%; height: 100.0%;"><b>Showbizrecords</b><br>Старая Басманная улица, 34</div>`)[0];
+                popup_6a3d234532556625408cda082f09b9fb.setContent(html_d85c6bb89372f1335f25fb087f8cfeca);
+            
+        
+
+        marker_c5bfce8b49e1214b86a532e38edf8efc.bindPopup(popup_6a3d234532556625408cda082f09b9fb)
+        ;
+
+        
+    
+    
+                marker_c5bfce8b49e1214b86a532e38edf8efc.setIcon(icon_e8e2e04615c4271171cff19939e3edcb);
+            
+    
+            tile_layer_1dab3dcce5986e7fce7939f09556f772.addTo(map_70a64ba8ba421f4ac4ed59fb80e4ee08);
+        
+    
+                marker_1a6123449fa9d40330e49f2f370200d5.setIcon(icon_9d3e19231d69bf7c4950aade0dda1786);
+            
+    
+                marker_a7ad054c17b425ac26a1187a258061a5.setIcon(icon_30fd69b6b01c907976ef868391015142);
+            
+    
+                marker_0d42594b2c13c41e282fb7b08f305b0d.setIcon(icon_0ca019f35734ea91917ee9c4f30085a2);
+            
+    
+                marker_77c52e549682803aa3eab11295ec9207.setIcon(icon_5e865069a50dda526efefd961537954e);
+            
+    
+                marker_af89f682a7c262262c1a40d788d90e5f.setIcon(icon_0926c8815d027d3c807b16df82ac2928);
+            
+    
+                marker_6b03d263ff44b029d5f829a8e7b87168.setIcon(icon_2d26c06b7cbbe01afe527af69ab57e48);
+            
+    
+                marker_c059df82dd337f23f5ab51634e3580b5.setIcon(icon_9a7b69516fe46f017d84e60ac550b52f);
+            
+    
+                marker_96b85bd9c1b232aace088908c36523e0.setIcon(icon_6a34703fc1aeab31344cfd4e296d04b2);
+            
+    
+                marker_f11eafa61c496ddfa57641a53745f998.setIcon(icon_c1a95303f50e2981931ec6eebc3f413d);
+            
+    
+                marker_cfa515bf85bed8a8c4719f912b8a171b.setIcon(icon_74b7d365a1130731e924381b59b576e3);
+            
+    
+                marker_bd91784e83bcc70eee654178b2f3a4a4.setIcon(icon_660d8d169189a174c80f8e17d888a31a);
+            
+    
+                marker_3b87247ed7a2b01a9bd91b68729160ca.setIcon(icon_89eb33aaacfc518f49612c0996cf813e);
+            
+    
+                marker_c44065bab0fe757b42c51761434b91a1.setIcon(icon_52e206a1781a019c78685207409c5d38);
+            
+    
+                marker_6505985f540b2bc8b058fb63e65fa027.setIcon(icon_797a9b21a6df6565ae911a5b764bbbc9);
+            
+    
+                marker_c5bfce8b49e1214b86a532e38edf8efc.setIcon(icon_e8e2e04615c4271171cff19939e3edcb);
+            
+</script>
+</html>
